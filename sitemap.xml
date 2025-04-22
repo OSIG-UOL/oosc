@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- replace osig-uol.github.io/oosc with your real domain if different -->
+  <url>
+    <loc>https://osig-uol.github.io/oosc/</loc>
+  </url>
+  <url>
+    <loc>https://osig-uol.github.io/oosc/tabs/registration.html</loc>
+  </url>
+  <url>
+    <loc>https://osig-uol.github.io/oosc/tabs/program.html</loc>
+  </url>
+  <url>
+    <loc>https://osig-uol.github.io/oosc/tabs/directions.html</loc>
+  </url>
+  <url>
+    <loc>https://osig-uol.github.io/oosc/tabs/flyer.html</loc>
+  </url>
+</urlset>
