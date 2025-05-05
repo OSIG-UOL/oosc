@@ -11,6 +11,35 @@
       .abstract {
         white-space: pre-wrap;
       }
+      /* Ajustes de espaciado para párrafos en abstract */
+      .abstract p {
+        margin: 0.25em 0;
+      }
+      /* Reset y estilo de navegación */
+      nav ul.navigation {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      nav ul.navigation li {
+        display: inline-block;
+        margin-right: 1.5em;
+      }
+      nav ul.navigation li:last-child {
+        margin-right: 0;
+      }
+      nav ul.navigation li a {
+        text-decoration: none;
+        padding: 0.25em 0;
+        display: inline-block;
+      }
+      nav ul.navigation li a.current {
+        font-weight: bold;
+      }
+      /* Reducir margen entre tablas */
+      table {
+        margin-bottom: 1em;
+      }
     </style>
     <meta name="description" content="1st Oldenburg Open Science Conference">
     <meta name="resource-type" content="document">
@@ -33,9 +62,9 @@
     </div>
     <nav>
       <ul class="navigation">
-        <li><a title="Conference Home Page" href=".">Home</a></li>
+        <li><a title="Conference Home Page" href="." class="current">Home</a></li>
         <li><a title="Register for the Conference" href="registration">Registration</a></li>
-        <li><a class="current" title="Conference Program" href="program">Program</a></li>
+        <li><a title="Conference Program" href="program">Program</a></li>
         <li><a title="Directions to the Conference" href="directions">Directions</a></li>
         <li><a title="Conference Flyer" href="flyer">Flyer</a></li>
       </ul>
@@ -200,7 +229,7 @@
           <ul>
             <li>Dr. Julius Welzel (Fk. 6): The Brain Imaging Data Structure (BIDS) for Data Sharing</li>
             <li>Sumbul Jafri (Fk. 6): Publishing Medical Data, The Oldenburg Hearing Health Repository</li>
-            <li>Karel Mauricio López Vilaret (TORS, FK. 6): The device center: Tools for Open and Reproducible Neuroscience</li>
+            <li>Dr. Karel Mauricio López Vilaret (TORS, FK. 6): The device center: Tools for Open and Reproducible Neuroscience</li>
           </ul>
         </td>
       </tr>
